@@ -1,0 +1,21 @@
+# InSAR Time-Series Analysis — pip requirements
+# For full environment (GDAL, ISCE2 etc.) use environment/environment.yml with conda
+
+mintpy
+aria-tools
+dolphin
+opera-utils[disp]>=0.25.0
+snaphu
+asf-search
+xarray
+rioxarray
+netcdf4
+h5py
+pyproj
+shapely
+cartopy
+ultraplot
+matplotlib
+numpy
+scipy
+jupyter

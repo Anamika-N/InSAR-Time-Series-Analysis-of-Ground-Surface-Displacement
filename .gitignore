@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.env
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Large geospatial data files — do not commit
+*.h5
+*.hdf5
+*.nc
+*.tif
+*.tiff
+*.vrt
+*.tar.gz
+*.zip
+*.gz
+data/
+inputs/
+outputs/
+stack/
+DEM/
+incidenceAngle/
+azimuthAngle/
+mask/
+dolphin/
+mintpy/
+opera-subset*/
+
+# ISCE / MintPy working directories
+pic/
+geo/
+radar/
+coregistered/
+merged/
+
+# Config auto-generated files
+smallbaselineApp.cfg
+dolphin_config.yaml
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,36 @@
+name: insar-env
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  # Core scientific Python
+  - python=3.10
+  - numpy
+  - scipy
+  - matplotlib
+  - jupyter
+  - jupyterlab
+
+  # Geospatial / raster
+  - gdal
+  - rasterio
+  - rioxarray
+  - xarray
+  - netcdf4
+  - h5py
+  - pyproj
+  - shapely
+  - cartopy
+
+  # InSAR tools (pip-installed for latest versions)
+  - pip
+  - pip:
+    - mintpy
+    - aria-tools
+    - dolphin
+    - "opera-utils[disp]>=0.25.0"
+    - snaphu
+    - asf-search
+    - pv   # progress viewer used in notebooks
+    - ultraplot
